@@ -1,0 +1,37 @@
+{
+  "entries": {
+    "/root/.openclaw/openclaw.json": {
+      "lastKnownGood": {
+        "hash": "d0fa1a14f71ff4177ddb9af1eb5e2cc81845017112c71a5896f82a5e5f7599c7",
+        "bytes": 2336,
+        "mtimeMs": 1779301312779.1833,
+        "ctimeMs": 1779301312779.1833,
+        "dev": "64513",
+        "ino": "1315573",
+        "mode": 384,
+        "nlink": 1,
+        "uid": 0,
+        "gid": 0,
+        "hasMeta": true,
+        "gatewayMode": "local",
+        "observedAt": "2026-05-20T18:25:03.892Z"
+      },
+      "lastObservedSuspiciousSignature": null,
+      "lastPromotedGood": {
+        "hash": "d0fa1a14f71ff4177ddb9af1eb5e2cc81845017112c71a5896f82a5e5f7599c7",
+        "bytes": 2336,
+        "mtimeMs": 1779301312779.1833,
+        "ctimeMs": 1779301312779.1833,
+        "dev": "64513",
+        "ino": "1315573",
+        "mode": 33152,
+        "nlink": 1,
+        "uid": 0,
+        "gid": 0,
+        "hasMeta": true,
+        "gatewayMode": "local",
+        "observedAt": "2026-05-20T18:23:51.954Z"
+      }
+    }
+  }
+}

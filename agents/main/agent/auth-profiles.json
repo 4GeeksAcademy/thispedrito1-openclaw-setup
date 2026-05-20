@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "profiles": {
+    "litellm:default": {
+      "type": "api_key",
+      "provider": "litellm",
+      "key": "sk-KMtk4jaxpgow3BZ1IRORdw"
+    }
+  }
+}

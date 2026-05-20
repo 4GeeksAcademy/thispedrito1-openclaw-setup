@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "lastGood": {
+    "litellm": "litellm:default"
+  },
+  "usageStats": {
+    "litellm:default": {
+      "lastUsed": 1779303773121,
+      "errorCount": 0
+    }
+  }
+}
