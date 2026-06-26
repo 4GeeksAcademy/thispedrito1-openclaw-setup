@@ -1,6 +1,10 @@
 {
   "54c4d8c8bb63b311abe6c93009dfbcbf": {
+    "sessionKey": "agent:main:tui-60be53a2-efd0-40cb-926a-0d5dfca1e804",
+    "updatedAt": 1782502807371
+  },
+  "e433a54b3bcb5ba081907f4ee903ddf5": {
     "sessionKey": "agent:main:main",
-    "updatedAt": 1779301673621
+    "updatedAt": 1779373682629
   }
 }

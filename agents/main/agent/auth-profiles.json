@@ -4,7 +4,7 @@
     "litellm:default": {
       "type": "api_key",
       "provider": "litellm",
-      "key": "sk-KMtk4jaxpgow3BZ1IRORdw"
+      "key": "sk-sO-8sCMicEQfT4MFpG0wCg"
     }
   }
 }

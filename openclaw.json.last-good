@@ -17,7 +17,7 @@
   },
   "meta": {
     "lastTouchedVersion": "2026.5.18",
-    "lastTouchedAt": "2026-05-20T18:15:21.797Z"
+    "lastTouchedAt": "2026-06-26T18:48:13.484Z"
   },
   "agents": {
     "defaults": {
@@ -26,10 +26,11 @@
         "litellm/claude-opus-4-6": {
           "alias": "LiteLLM"
         },
-        "litellm/madrid-spain/openrouter/deepseek/deepseek-v3.2": {}
+        "litellm/madrid-spain/openrouter/deepseek/deepseek-v3.2": {},
+        "litellm/madrid-spain/openrouter/deepseek/deepseek-v4-flash": {}
       },
       "model": {
-        "primary": "litellm/madrid-spain/openrouter/deepseek/deepseek-v3.2"
+        "primary": "litellm/madrid-spain/openrouter/deepseek/deepseek-v4-flash"
       }
     }
   },
@@ -42,6 +43,9 @@
   "plugins": {
     "entries": {
       "litellm": {
+        "enabled": true
+      },
+      "telegram": {
         "enabled": true
       }
     }
@@ -105,9 +109,161 @@
     }
   },
   "wizard": {
-    "lastRunAt": "2026-05-20T18:15:21.459Z",
+    "lastRunAt": "2026-06-26T18:48:13.092Z",
     "lastRunVersion": "2026.5.18",
     "lastRunCommand": "onboard",
     "lastRunMode": "local"
+  },
+  "channels": {
+    "telegram": {
+      "enabled": true,
+      "botToken": "8635247689:AAGYlLsY4tP5b22b6i61ZIFjc9NNzVeeCsc"
+    }
+  },
+  "commands": {
+    "ownerAllowFrom": [
+      "telegram:1061043652"
+    ]
+  },
+  "mcp": {
+    "servers": {
+      "composio": {
+        "url": "https://connect.composio.dev/mcp",
+        "transport": "streamable-http",
+        "headers": {
+          "x-consumer-api-key": "ck_AIbnVFJg4euyisawfn-D"
+        }
+      }
+    }
+  },
+  "skills": {
+    "entries": {
+      "1password": {
+        "enabled": false
+      },
+      "apple-notes": {
+        "enabled": false
+      },
+      "apple-reminders": {
+        "enabled": false
+      },
+      "bear-notes": {
+        "enabled": false
+      },
+      "blogwatcher": {
+        "enabled": false
+      },
+      "blucli": {
+        "enabled": false
+      },
+      "camsnap": {
+        "enabled": false
+      },
+      "clawhub": {
+        "enabled": false
+      },
+      "coding-agent": {
+        "enabled": false
+      },
+      "discord": {
+        "enabled": false
+      },
+      "eightctl": {
+        "enabled": false
+      },
+      "gemini": {
+        "enabled": false
+      },
+      "gh-issues": {
+        "enabled": false
+      },
+      "gifgrep": {
+        "enabled": false
+      },
+      "github": {
+        "enabled": false
+      },
+      "gog": {
+        "enabled": false
+      },
+      "goplaces": {
+        "enabled": false
+      },
+      "himalaya": {
+        "enabled": false
+      },
+      "imsg": {
+        "enabled": false
+      },
+      "model-usage": {
+        "enabled": false
+      },
+      "nano-pdf": {
+        "enabled": false
+      },
+      "obsidian": {
+        "enabled": false
+      },
+      "openai-whisper": {
+        "enabled": false
+      },
+      "openai-whisper-api": {
+        "enabled": false
+      },
+      "openhue": {
+        "enabled": false
+      },
+      "oracle": {
+        "enabled": false
+      },
+      "ordercli": {
+        "enabled": false
+      },
+      "peekaboo": {
+        "enabled": false
+      },
+      "sag": {
+        "enabled": false
+      },
+      "session-logs": {
+        "enabled": false
+      },
+      "sherpa-onnx-tts": {
+        "enabled": false
+      },
+      "slack": {
+        "enabled": false
+      },
+      "songsee": {
+        "enabled": false
+      },
+      "sonoscli": {
+        "enabled": false
+      },
+      "spotify-player": {
+        "enabled": false
+      },
+      "summarize": {
+        "enabled": false
+      },
+      "things-mac": {
+        "enabled": false
+      },
+      "trello": {
+        "enabled": false
+      },
+      "video-frames": {
+        "enabled": false
+      },
+      "voice-call": {
+        "enabled": false
+      },
+      "wacli": {
+        "enabled": false
+      },
+      "xurl": {
+        "enabled": false
+      }
+    }
   }
 }

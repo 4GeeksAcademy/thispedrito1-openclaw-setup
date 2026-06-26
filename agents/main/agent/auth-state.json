@@ -5,8 +5,9 @@
   },
   "usageStats": {
     "litellm:default": {
-      "lastUsed": 1779305572716,
-      "errorCount": 0
+      "lastUsed": 1782507014554,
+      "errorCount": 0,
+      "lastFailureAt": 1782499191343
     }
   }
 }

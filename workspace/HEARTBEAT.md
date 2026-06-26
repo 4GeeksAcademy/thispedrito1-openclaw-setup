@@ -7,3 +7,4 @@
 ## Related
 
 - [Heartbeat config](/gateway/config-agents)
+<!-- - cada 2 horas ejecutar: Triaje Inmobiliario Automatizado (Inbox to Sheets & Drafts) -->

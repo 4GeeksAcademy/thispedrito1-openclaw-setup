@@ -1,0 +1,124 @@
+{
+  "tools": [
+    {
+      "tool": "GOOGLEDOCS_CREATE_DOCUMENT_MARKDOWN",
+      "arguments": {
+        "title": "Dominando la IA Agentica",
+        "markdown_text": "# Dominando la IA Agentica: Conceptos B\u00e1sicos
+
+## \u00bfQu\u00e9 es la IA Agentica?
+
+La **IA Agentica** se refiere a sistemas de inteligencia artificial que pueden tomar acciones aut\u00f3nomas para lograr objetivos espec\u00edficos. A diferencia de los chatbots tradicionales que solo responden preguntas, los agentes de IA pueden:
+
+- Planificar secuencias de acciones
+- Ejecutar tareas en diferentes sistemas
+- Aprender de los resultados
+- Adaptarse a situaciones cambiantes
+
+## Componentes Clave de un Agente de IA
+
+### 1. **Percepci\u00f3n**
+- Capacidad de entender el entorno
+- Interpretaci\u00f3n de entradas (texto, im\u00e1genes, datos)
+- Extracci\u00f3n de informaci\u00f3n relevante
+
+### 2. **Planificaci\u00f3n**
+- Definici\u00f3n de objetivos
+- Creaci\u00f3n de estrategias
+- Secuenciaci\u00f3n de acciones
+
+### 3. **Ejecuci\u00f3n**
+- Uso de herramientas y APIs
+- Interacci\u00f3n con sistemas externos
+- Automatizaci\u00f3n de procesos
+
+### 4. **Aprendizaje**
+- Retroalimentaci\u00f3n de resultados
+- Mejora continua
+- Adaptaci\u00f3n a nuevos contextos
+
+## Tipos de Agentes de IA
+
+### **Agentes Reactivos**
+- Responden a est\u00edmulos inmediatos
+- Sin memoria a largo plazo
+- Ejemplo: Asistentes de voz b\u00e1sicos
+
+### **Agentes con Objetivos**
+- Buscan alcanzar metas espec\u00edficas
+- Planificaci\u00f3n a corto plazo
+- Ejemplo: Agentes de automatizaci\u00f3n
+
+### **Agentes de Aprendizaje**
+- Mejoran con la experiencia
+- Adaptan su comportamiento
+- Ejemplo: Sistemas de recomendaci\u00f3n
+
+## Aplicaciones Pr\u00e1cticas
+
+### **Automatizaci\u00f3n Empresarial**
+- Procesamiento de documentos
+- Gesti\u00f3n de correos electr\u00f3nicos
+- An\u00e1lisis de datos
+
+### **Asistencia Personal**
+- Organizaci\u00f3n de calendarios
+- Investigaci\u00f3n y resumen
+- Gesti\u00f3n de tareas
+
+### **Desarrollo de Software**
+- Generaci\u00f3n de c\u00f3digo
+- Pruebas automatizadas
+- Debugging asistido
+
+## Mejores Pr\u00e1cticas para Implementar
+
+### **1. Definir Objetivos Claros**
+- Especificar exactamente qu\u00e9 debe lograr el agente
+- Establecer m\u00e9tricas de \u00e9xito
+- Definir l\u00edmites de acci\u00f3n
+
+### **2. Dise\u00f1ar para la Seguridad**
+- Implementar controles de acceso
+- Validar todas las acciones
+- Monitorear comportamiento
+
+### **3. Planificar la Escalabilidad**
+- Dise\u00f1ar arquitectura modular
+- Considerar cargas de trabajo
+- Preparar para el crecimiento
+
+### **4. Incorporar Retroalimentaci\u00f3n**
+- Mecanismos de correcci\u00f3n
+- Aprendizaje continuo
+- Mejora iterativa
+
+## Recursos para Continuar Aprendiendo
+
+### **Plataformas para Experimentar**
+- OpenAI Assistant API
+- LangChain
+- AutoGPT
+- CrewAI
+
+### **Conceptos para Profundizar**
+- Arquitecturas de agentes
+- Sistemas multi-agente
+- Coordinaci\u00f3n y comunicaci\u00f3n
+- \u00c9tica en IA agentica
+
+## Conclusi\u00f3n
+
+Dominar la IA Agentica comienza con entender los conceptos b\u00e1sicos y experimentar con herramientas disponibles. La clave est\u00e1 en empezar con objetivos peque\u00f1os, aprender iterativamente y siempre mantener el enfoque en la seguridad y \u00e9tica del desarrollo.
+
+---
+
+*Documento creado para aprendizaje personal - Conceptos b\u00e1sicos de IA Agentica*"
+      }
+    }
+  ],
+  "thought": "Crear documento básico sobre IA Agentica para aprendizaje personal",
+  "current_step": "CREATING_DOCUMENT",
+  "current_step_metric": "1/1 documentos",
+  "session_id": "sail"
+}

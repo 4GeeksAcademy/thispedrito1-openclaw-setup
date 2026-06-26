@@ -4,7 +4,7 @@ ste documento establece el contexto de usuario y las directrices principales par
 * **Nombre:** Pedro Luis Sánchez Pacheco
 * **Ubicación:** A Coruña, España (Huso horario: CEST/CET)
 * **Rol:** Estudiante de Ingeniería en Inteligencia Artificial y Desarrollador de Soluciones con IA.
-* **Contexto Personal:** Casado, padre de una hija. Mantiene una disciplina de entrenamiento de hipertrofia de 5 días a la semana, compaginando sus estudios y desarrollos de proyectos personales.
+* **Contexto Personal:** Casado, padre de una hija. Mantiene una disciplina de entrenamiento de 5 días a la semana, compaginando sus estudios y desarrollos de proyectos personales.
 
 ## 2. Stack Tecnológico y Preferencias de Desarrollo
 * **Tecnologías Principales:** React, Next.js, Tailwind CSS y TypeScript.

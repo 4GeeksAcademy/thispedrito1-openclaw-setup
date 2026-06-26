@@ -4,10 +4,101 @@
   "hostContractVersion": "2026.5.18",
   "compatRegistryVersion": "af8b17f09647983ae8ac5979bb70f87f862f1e9e343fe9eb85f4a11a135cfa17",
   "migrationVersion": 1,
-  "policyHash": "b07e14dc3e5d721b852b85c1ad429a90b6a807ceb26850002b5bed2ad8c7d1de",
-  "generatedAtMs": 1779300357360,
+  "policyHash": "8280788fd51e76f428d1d91bd406e8479ad1225c8aae9c42abdcb5f9410a440b",
+  "generatedAtMs": 1782320088648,
+  "refreshReason": "migration",
   "installRecords": {},
   "plugins": [
+    {
+      "pluginId": "active-memory",
+      "manifestPath": "/root/.nvm/versions/node/v22.22.3/lib/node_modules/openclaw/dist/extensions/active-memory/openclaw.plugin.json",
+      "manifestHash": "4c980e5ee4e7f524e40cc22ba63b3a04af0dc6945caa094e3c9d6b126dcd8f20",
+      "manifestFile": {
+        "size": 8836,
+        "mtimeMs": 1779300345481.0981,
+        "ctimeMs": 1779300345481.0981
+      },
+      "source": "/root/.nvm/versions/node/v22.22.3/lib/node_modules/openclaw/dist/extensions/active-memory/index.js",
+      "rootDir": "/root/.nvm/versions/node/v22.22.3/lib/node_modules/openclaw/dist/extensions/active-memory",
+      "origin": "bundled",
+      "enabled": false,
+      "startup": {
+        "sidecar": true,
+        "memory": false,
+        "deferConfiguredChannelFullLoadUntilAfterListen": false,
+        "agentHarnesses": []
+      },
+      "compat": []
+    },
+    {
+      "pluginId": "admin-http-rpc",
+      "manifestPath": "/root/.nvm/versions/node/v22.22.3/lib/node_modules/openclaw/dist/extensions/admin-http-rpc/openclaw.plugin.json",
+      "manifestHash": "fdc5e1cdeef340d975c104515f0e8b3aec42bf80c27de8b26ac8ae8d3b1593d4",
+      "manifestFile": {
+        "size": 336,
+        "mtimeMs": 1779300345485.0981,
+        "ctimeMs": 1779300345485.0981
+      },
+      "source": "/root/.nvm/versions/node/v22.22.3/lib/node_modules/openclaw/dist/extensions/admin-http-rpc/index.js",
+      "rootDir": "/root/.nvm/versions/node/v22.22.3/lib/node_modules/openclaw/dist/extensions/admin-http-rpc",
+      "origin": "bundled",
+      "enabled": false,
+      "startup": {
+        "sidecar": false,
+        "memory": false,
+        "deferConfiguredChannelFullLoadUntilAfterListen": false,
+        "agentHarnesses": []
+      },
+      "compat": [
+        "activation-config-path-hint"
+      ],
+      "packageName": "@openclaw/admin-http-rpc",
+      "packageVersion": "2026.5.18",
+      "packageJson": {
+        "path": "package.json",
+        "hash": "1d408ebe873c3a1ec601bef4ace4e1bf22fd07bafd1a1c49ac3903e9ddc44563",
+        "fileSignature": {
+          "size": 295,
+          "mtimeMs": 1779300345549.0981,
+          "ctimeMs": 1779300345549.0981
+        }
+      }
+    },
+    {
+      "pluginId": "alibaba",
+      "manifestPath": "/root/.nvm/versions/node/v22.22.3/lib/node_modules/openclaw/dist/extensions/alibaba/openclaw.plugin.json",
+      "manifestHash": "f89fad1382270da7c135c5668bd1824d02245ac8053909917ae6dde400c5c800",
+      "manifestFile": {
+        "size": 1015,
+        "mtimeMs": 1779300345485.0981,
+        "ctimeMs": 1779300345485.0981
+      },
+      "source": "/root/.nvm/versions/node/v22.22.3/lib/node_modules/openclaw/dist/extensions/alibaba/index.js",
+      "rootDir": "/root/.nvm/versions/node/v22.22.3/lib/node_modules/openclaw/dist/extensions/alibaba",
+      "origin": "bundled",
+      "enabled": true,
+      "startup": {
+        "sidecar": false,
+        "memory": false,
+        "deferConfiguredChannelFullLoadUntilAfterListen": false,
+        "agentHarnesses": []
+      },
+      "compat": [
+        "provider-auth-env-vars"
+      ],
+      "enabledByDefault": true,
+      "packageName": "@openclaw/alibaba-provider",
+      "packageVersion": "2026.5.18",
+      "packageJson": {
+        "path": "package.json",
+        "hash": "80f7ed875e4cb1fdf3902a44b9ff4a671d8c71c109578884790c4850c2233ee0",
+        "fileSignature": {
+          "size": 316,
+          "mtimeMs": 1779300345549.0981,
+          "ctimeMs": 1779300345549.0981
+        }
+      }
+    },
     {
       "pluginId": "anthropic",
       "manifestPath": "/root/.nvm/versions/node/v22.22.3/lib/node_modules/openclaw/dist/extensions/anthropic/openclaw.plugin.json",
@@ -84,6 +175,111 @@
       }
     },
     {
+      "pluginId": "azure-speech",
+      "manifestPath": "/root/.nvm/versions/node/v22.22.3/lib/node_modules/openclaw/dist/extensions/azure-speech/openclaw.plugin.json",
+      "manifestHash": "ad7359ef75d84324f572b4862979ca99c7cd1d5c1d9563f50c3e4bbaf5489b3d",
+      "manifestFile": {
+        "size": 1911,
+        "mtimeMs": 1779300345485.0981,
+        "ctimeMs": 1779300345485.0981
+      },
+      "source": "/root/.nvm/versions/node/v22.22.3/lib/node_modules/openclaw/dist/extensions/azure-speech/index.js",
+      "rootDir": "/root/.nvm/versions/node/v22.22.3/lib/node_modules/openclaw/dist/extensions/azure-speech",
+      "origin": "bundled",
+      "enabled": true,
+      "startup": {
+        "sidecar": false,
+        "memory": false,
+        "deferConfiguredChannelFullLoadUntilAfterListen": false,
+        "agentHarnesses": []
+      },
+      "compat": [
+        "provider-auth-env-vars"
+      ],
+      "enabledByDefault": true,
+      "packageName": "@openclaw/azure-speech",
+      "packageVersion": "2026.5.18",
+      "packageJson": {
+        "path": "package.json",
+        "hash": "f34ca440cc8b1a8bb05b8fcba063699e49b432074e8c651e72a4a346f7161aa5",
+        "fileSignature": {
+          "size": 289,
+          "mtimeMs": 1779300345553.0981,
+          "ctimeMs": 1779300345553.0981
+        }
+      }
+    },
+    {
+      "pluginId": "bonjour",
+      "manifestPath": "/root/.nvm/versions/node/v22.22.3/lib/node_modules/openclaw/dist/extensions/bonjour/openclaw.plugin.json",
+      "manifestHash": "dd4a71a9d9bd4b33a0a5057c9caa5eabe2abc508993910e2f54fb092cb7b7a42",
+      "manifestFile": {
+        "size": 338,
+        "mtimeMs": 1779300345485.0981,
+        "ctimeMs": 1779300345485.0981
+      },
+      "source": "/root/.nvm/versions/node/v22.22.3/lib/node_modules/openclaw/dist/extensions/bonjour/index.js",
+      "rootDir": "/root/.nvm/versions/node/v22.22.3/lib/node_modules/openclaw/dist/extensions/bonjour",
+      "origin": "bundled",
+      "enabled": false,
+      "startup": {
+        "sidecar": true,
+        "memory": false,
+        "deferConfiguredChannelFullLoadUntilAfterListen": false,
+        "agentHarnesses": []
+      },
+      "compat": [],
+      "enabledByDefaultOnPlatforms": [
+        "darwin"
+      ],
+      "packageName": "@openclaw/bonjour",
+      "packageVersion": "2026.5.18",
+      "packageJson": {
+        "path": "package.json",
+        "hash": "52a969798cad8d712e0bb1aaa6eb19bf6aca53f60ba6109057af8cb5820b9321",
+        "fileSignature": {
+          "size": 333,
+          "mtimeMs": 1779300345553.0981,
+          "ctimeMs": 1779300345553.0981
+        }
+      }
+    },
+    {
+      "pluginId": "browser",
+      "manifestPath": "/root/.nvm/versions/node/v22.22.3/lib/node_modules/openclaw/dist/extensions/browser/openclaw.plugin.json",
+      "manifestHash": "8c707bde12a49ae31ecec38a04d0f139e7ca0efe86b1ba299a0fedc61162acb3",
+      "manifestFile": {
+        "size": 400,
+        "mtimeMs": 1779300345485.0981,
+        "ctimeMs": 1779300345485.0981
+      },
+      "source": "/root/.nvm/versions/node/v22.22.3/lib/node_modules/openclaw/dist/extensions/browser/index.js",
+      "rootDir": "/root/.nvm/versions/node/v22.22.3/lib/node_modules/openclaw/dist/extensions/browser",
+      "origin": "bundled",
+      "enabled": true,
+      "startup": {
+        "sidecar": true,
+        "memory": false,
+        "deferConfiguredChannelFullLoadUntilAfterListen": false,
+        "agentHarnesses": []
+      },
+      "compat": [
+        "activation-config-path-hint"
+      ],
+      "enabledByDefault": true,
+      "packageName": "@openclaw/browser-plugin",
+      "packageVersion": "2026.5.18",
+      "packageJson": {
+        "path": "package.json",
+        "hash": "5d37acab52ae71a9d6afce97648d7e5b7008f423f269f1ee581c194587387529",
+        "fileSignature": {
+          "size": 510,
+          "mtimeMs": 1779300345553.0981,
+          "ctimeMs": 1779300345553.0981
+        }
+      }
+    },
+    {
       "pluginId": "byteplus",
       "manifestPath": "/root/.nvm/versions/node/v22.22.3/lib/node_modules/openclaw/dist/extensions/byteplus/openclaw.plugin.json",
       "manifestHash": "fe5847c42db0511d27efcf0e6c097999a1b11fa28b92141f8c38cc0c07acb8b9",
@@ -113,6 +309,39 @@
         "hash": "00e6215b9f8668ce12ff20b076b3eafdbf46b1ff6f47e82530c9f428a0439ddb",
         "fileSignature": {
           "size": 299,
+          "mtimeMs": 1779300345553.0981,
+          "ctimeMs": 1779300345553.0981
+        }
+      }
+    },
+    {
+      "pluginId": "canvas",
+      "manifestPath": "/root/.nvm/versions/node/v22.22.3/lib/node_modules/openclaw/dist/extensions/canvas/openclaw.plugin.json",
+      "manifestHash": "95d29758fccb5c392a4d1d764ae6872d63a0b824edfb08d58042d97d3ec21759",
+      "manifestFile": {
+        "size": 872,
+        "mtimeMs": 1779300345489.0981,
+        "ctimeMs": 1779300345489.0981
+      },
+      "source": "/root/.nvm/versions/node/v22.22.3/lib/node_modules/openclaw/dist/extensions/canvas/index.js",
+      "rootDir": "/root/.nvm/versions/node/v22.22.3/lib/node_modules/openclaw/dist/extensions/canvas",
+      "origin": "bundled",
+      "enabled": true,
+      "startup": {
+        "sidecar": true,
+        "memory": false,
+        "deferConfiguredChannelFullLoadUntilAfterListen": false,
+        "agentHarnesses": []
+      },
+      "compat": [],
+      "enabledByDefault": true,
+      "packageName": "@openclaw/canvas-plugin",
+      "packageVersion": "2026.5.18",
+      "packageJson": {
+        "path": "package.json",
+        "hash": "74cfacb766f7f7d7841a2beb69d19d23ee251125fd4e713ff5f1673e1b4fad1a",
+        "fileSignature": {
+          "size": 573,
           "mtimeMs": 1779300345553.0981,
           "ctimeMs": 1779300345553.0981
         }
@@ -185,6 +414,57 @@
           "size": 298,
           "mtimeMs": 1779300345553.0981,
           "ctimeMs": 1779300345553.0981
+        }
+      }
+    },
+    {
+      "pluginId": "clickclack",
+      "manifestPath": "/root/.nvm/versions/node/v22.22.3/lib/node_modules/openclaw/dist/extensions/clickclack/openclaw.plugin.json",
+      "manifestHash": "940f2086ba960cb6b292d6ea2cc3a0992357036766d2bb2f797ebb993c77fbe9",
+      "manifestFile": {
+        "size": 9574,
+        "mtimeMs": 1779300345489.0981,
+        "ctimeMs": 1779300345489.0981
+      },
+      "source": "/root/.nvm/versions/node/v22.22.3/lib/node_modules/openclaw/dist/extensions/clickclack/index.js",
+      "rootDir": "/root/.nvm/versions/node/v22.22.3/lib/node_modules/openclaw/dist/extensions/clickclack",
+      "origin": "bundled",
+      "enabled": false,
+      "startup": {
+        "sidecar": false,
+        "memory": false,
+        "deferConfiguredChannelFullLoadUntilAfterListen": false,
+        "agentHarnesses": []
+      },
+      "compat": [
+        "channel-env-vars"
+      ],
+      "packageName": "@openclaw/clickclack",
+      "packageVersion": "2026.5.18",
+      "packageChannel": {
+        "id": "clickclack",
+        "label": "ClickClack",
+        "selectionLabel": "ClickClack",
+        "detailLabel": "ClickClack Bot",
+        "docsPath": "/channels/clickclack",
+        "docsLabel": "clickclack",
+        "blurb": "self-hosted chat via first-class ClickClack bot tokens.",
+        "systemImage": "bubble.left.and.bubble.right",
+        "markdownCapable": true,
+        "preferSessionLookupForAnnounceTarget": true,
+        "order": 85,
+        "commands": {
+          "nativeCommandsAutoEnabled": false,
+          "nativeSkillsAutoEnabled": false
+        }
+      },
+      "packageJson": {
+        "path": "package.json",
+        "hash": "dcb290ba7cfe301cfb4fac9f7c66bdbf347b29ae81a94becae0f44e855f3b2bb",
+        "fileSignature": {
+          "size": 1214,
+          "mtimeMs": 1779300345557.0981,
+          "ctimeMs": 1779300345557.0981
         }
       }
     },
@@ -292,6 +572,41 @@
       }
     },
     {
+      "pluginId": "deepgram",
+      "manifestPath": "/root/.nvm/versions/node/v22.22.3/lib/node_modules/openclaw/dist/extensions/deepgram/openclaw.plugin.json",
+      "manifestHash": "afaa62fc51e5677eb2bc4c0f7016d6255a77c636679e82952f18aed593353092",
+      "manifestFile": {
+        "size": 659,
+        "mtimeMs": 1779300345493.0981,
+        "ctimeMs": 1779300345493.0981
+      },
+      "source": "/root/.nvm/versions/node/v22.22.3/lib/node_modules/openclaw/dist/extensions/deepgram/index.js",
+      "rootDir": "/root/.nvm/versions/node/v22.22.3/lib/node_modules/openclaw/dist/extensions/deepgram",
+      "origin": "bundled",
+      "enabled": true,
+      "startup": {
+        "sidecar": false,
+        "memory": false,
+        "deferConfiguredChannelFullLoadUntilAfterListen": false,
+        "agentHarnesses": []
+      },
+      "compat": [
+        "provider-auth-env-vars"
+      ],
+      "enabledByDefault": true,
+      "packageName": "@openclaw/deepgram-provider",
+      "packageVersion": "2026.5.18",
+      "packageJson": {
+        "path": "package.json",
+        "hash": "378adaa6bececf9badfb0988caaaf547a7a1b5104497c0df5976f51136d21306",
+        "fileSignature": {
+          "size": 312,
+          "mtimeMs": 1779300345557.0981,
+          "ctimeMs": 1779300345557.0981
+        }
+      }
+    },
+    {
       "pluginId": "deepinfra",
       "manifestPath": "/root/.nvm/versions/node/v22.22.3/lib/node_modules/openclaw/dist/extensions/deepinfra/openclaw.plugin.json",
       "manifestHash": "2034f54a0eb7c46bd57e5d0e0b39e62bf33a6c11dda4a8526d28d8c3f1f1a4a2",
@@ -360,6 +675,162 @@
       }
     },
     {
+      "pluginId": "device-pair",
+      "manifestPath": "/root/.nvm/versions/node/v22.22.3/lib/node_modules/openclaw/dist/extensions/device-pair/openclaw.plugin.json",
+      "manifestHash": "12927d5b8f22d47494cc74bd977149db7f4923665d775f78e06c73b1608b7cd2",
+      "manifestFile": {
+        "size": 621,
+        "mtimeMs": 1779300345493.0981,
+        "ctimeMs": 1779300345493.0981
+      },
+      "source": "/root/.nvm/versions/node/v22.22.3/lib/node_modules/openclaw/dist/extensions/device-pair/index.js",
+      "rootDir": "/root/.nvm/versions/node/v22.22.3/lib/node_modules/openclaw/dist/extensions/device-pair",
+      "origin": "bundled",
+      "enabled": true,
+      "startup": {
+        "sidecar": true,
+        "memory": false,
+        "deferConfiguredChannelFullLoadUntilAfterListen": false,
+        "agentHarnesses": []
+      },
+      "compat": [],
+      "enabledByDefault": true
+    },
+    {
+      "pluginId": "document-extract",
+      "manifestPath": "/root/.nvm/versions/node/v22.22.3/lib/node_modules/openclaw/dist/extensions/document-extract/openclaw.plugin.json",
+      "manifestHash": "c4bcd246214ef231b69b438dc8a4b7d0bcf51c8605e0ea32f1db4c7a8dc0df18",
+      "manifestFile": {
+        "size": 400,
+        "mtimeMs": 1779300345497.0981,
+        "ctimeMs": 1779300345497.0981
+      },
+      "source": "/root/.nvm/versions/node/v22.22.3/lib/node_modules/openclaw/dist/extensions/document-extract/index.js",
+      "rootDir": "/root/.nvm/versions/node/v22.22.3/lib/node_modules/openclaw/dist/extensions/document-extract",
+      "origin": "bundled",
+      "enabled": true,
+      "startup": {
+        "sidecar": false,
+        "memory": false,
+        "deferConfiguredChannelFullLoadUntilAfterListen": false,
+        "agentHarnesses": []
+      },
+      "compat": [],
+      "enabledByDefault": true,
+      "packageName": "@openclaw/document-extract-plugin",
+      "packageVersion": "2026.5.18",
+      "packageJson": {
+        "path": "package.json",
+        "hash": "cdb4e2403c0a5cdde485e8a10524e6469860d640a6d18ab62ca91454d8259f6c",
+        "fileSignature": {
+          "size": 515,
+          "mtimeMs": 1779300345561.0981,
+          "ctimeMs": 1779300345561.0981
+        }
+      }
+    },
+    {
+      "pluginId": "duckduckgo",
+      "manifestPath": "/root/.nvm/versions/node/v22.22.3/lib/node_modules/openclaw/dist/extensions/duckduckgo/openclaw.plugin.json",
+      "manifestHash": "97c43b0c6846179073a218e2f878a8523d7467743919e18deef83ab95e49ca21",
+      "manifestFile": {
+        "size": 922,
+        "mtimeMs": 1779300345497.0981,
+        "ctimeMs": 1779300345497.0981
+      },
+      "source": "/root/.nvm/versions/node/v22.22.3/lib/node_modules/openclaw/dist/extensions/duckduckgo/index.js",
+      "rootDir": "/root/.nvm/versions/node/v22.22.3/lib/node_modules/openclaw/dist/extensions/duckduckgo",
+      "origin": "bundled",
+      "enabled": false,
+      "startup": {
+        "sidecar": false,
+        "memory": false,
+        "deferConfiguredChannelFullLoadUntilAfterListen": false,
+        "agentHarnesses": []
+      },
+      "compat": [],
+      "packageName": "@openclaw/duckduckgo-plugin",
+      "packageVersion": "2026.5.18",
+      "packageJson": {
+        "path": "package.json",
+        "hash": "16a1b19b747707aa699c9207bd57ab14344aaa052f15ed1ae7617cf3208e687d",
+        "fileSignature": {
+          "size": 292,
+          "mtimeMs": 1779300345561.0981,
+          "ctimeMs": 1779300345561.0981
+        }
+      }
+    },
+    {
+      "pluginId": "elevenlabs",
+      "manifestPath": "/root/.nvm/versions/node/v22.22.3/lib/node_modules/openclaw/dist/extensions/elevenlabs/openclaw.plugin.json",
+      "manifestHash": "2413900479ffe13408e984ab4014365497f820defa716247f33cfd590d4b9888",
+      "manifestFile": {
+        "size": 934,
+        "mtimeMs": 1779300345497.0981,
+        "ctimeMs": 1779300345497.0981
+      },
+      "source": "/root/.nvm/versions/node/v22.22.3/lib/node_modules/openclaw/dist/extensions/elevenlabs/index.js",
+      "rootDir": "/root/.nvm/versions/node/v22.22.3/lib/node_modules/openclaw/dist/extensions/elevenlabs",
+      "origin": "bundled",
+      "enabled": true,
+      "startup": {
+        "sidecar": false,
+        "memory": false,
+        "deferConfiguredChannelFullLoadUntilAfterListen": false,
+        "agentHarnesses": []
+      },
+      "compat": [
+        "provider-auth-env-vars"
+      ],
+      "enabledByDefault": true,
+      "packageName": "@openclaw/elevenlabs-speech",
+      "packageVersion": "2026.5.18",
+      "packageJson": {
+        "path": "package.json",
+        "hash": "5a0dd7e4a5ad964e24568394e6a2b730378527e0adc2762a9cc484ca19027520",
+        "fileSignature": {
+          "size": 299,
+          "mtimeMs": 1779300345565.0981,
+          "ctimeMs": 1779300345565.0981
+        }
+      }
+    },
+    {
+      "pluginId": "exa",
+      "manifestPath": "/root/.nvm/versions/node/v22.22.3/lib/node_modules/openclaw/dist/extensions/exa/openclaw.plugin.json",
+      "manifestHash": "9abedd68d4a13b5fa19d31a1f3bb9eae5cf921405ae48ccd6f7e47522852782e",
+      "manifestFile": {
+        "size": 1126,
+        "mtimeMs": 1779300345497.0981,
+        "ctimeMs": 1779300345497.0981
+      },
+      "source": "/root/.nvm/versions/node/v22.22.3/lib/node_modules/openclaw/dist/extensions/exa/index.js",
+      "rootDir": "/root/.nvm/versions/node/v22.22.3/lib/node_modules/openclaw/dist/extensions/exa",
+      "origin": "bundled",
+      "enabled": false,
+      "startup": {
+        "sidecar": false,
+        "memory": false,
+        "deferConfiguredChannelFullLoadUntilAfterListen": false,
+        "agentHarnesses": []
+      },
+      "compat": [
+        "provider-auth-env-vars"
+      ],
+      "packageName": "@openclaw/exa-plugin",
+      "packageVersion": "2026.5.18",
+      "packageJson": {
+        "path": "package.json",
+        "hash": "dc72089052b113c27af4f99bd5546669de617ef158cd9222f26878f322b18445",
+        "fileSignature": {
+          "size": 278,
+          "mtimeMs": 1779300345565.0981,
+          "ctimeMs": 1779300345565.0981
+        }
+      }
+    },
+    {
       "pluginId": "fal",
       "manifestPath": "/root/.nvm/versions/node/v22.22.3/lib/node_modules/openclaw/dist/extensions/fal/openclaw.plugin.json",
       "manifestHash": "a37df16acf0fccc90f6a6d9a0f38a1a691d99113cab017fd20884ec9a8ad1d4c",
@@ -389,6 +860,73 @@
         "hash": "084cf8b700620ca7f152b4dc81b806ae352661db1ef0649ad275383bbcda1151",
         "fileSignature": {
           "size": 289,
+          "mtimeMs": 1779300345565.0981,
+          "ctimeMs": 1779300345565.0981
+        }
+      }
+    },
+    {
+      "pluginId": "file-transfer",
+      "manifestPath": "/root/.nvm/versions/node/v22.22.3/lib/node_modules/openclaw/dist/extensions/file-transfer/openclaw.plugin.json",
+      "manifestHash": "58af0929b80753b3778f240b8480cbaf7d14280ac81cce23b01d92b51e44ae0e",
+      "manifestFile": {
+        "size": 1559,
+        "mtimeMs": 1779300345497.0981,
+        "ctimeMs": 1779300345497.0981
+      },
+      "source": "/root/.nvm/versions/node/v22.22.3/lib/node_modules/openclaw/dist/extensions/file-transfer/index.js",
+      "rootDir": "/root/.nvm/versions/node/v22.22.3/lib/node_modules/openclaw/dist/extensions/file-transfer",
+      "origin": "bundled",
+      "enabled": true,
+      "startup": {
+        "sidecar": true,
+        "memory": false,
+        "deferConfiguredChannelFullLoadUntilAfterListen": false,
+        "agentHarnesses": []
+      },
+      "compat": [],
+      "enabledByDefault": true,
+      "packageName": "@openclaw/file-transfer",
+      "packageVersion": "2026.5.18",
+      "packageJson": {
+        "path": "package.json",
+        "hash": "9d2cc7b7a4b33a487d644db556ce8263ca13f07ec1d70f353ca12a1b32fd49fd",
+        "fileSignature": {
+          "size": 394,
+          "mtimeMs": 1779300345565.0981,
+          "ctimeMs": 1779300345565.0981
+        }
+      }
+    },
+    {
+      "pluginId": "firecrawl",
+      "manifestPath": "/root/.nvm/versions/node/v22.22.3/lib/node_modules/openclaw/dist/extensions/firecrawl/openclaw.plugin.json",
+      "manifestHash": "351769bde70308fcd4c29cc231d7d5497cd96208f7b8bc9d544be4e11ddb21cf",
+      "manifestFile": {
+        "size": 2115,
+        "mtimeMs": 1779300345501.0981,
+        "ctimeMs": 1779300345501.0981
+      },
+      "source": "/root/.nvm/versions/node/v22.22.3/lib/node_modules/openclaw/dist/extensions/firecrawl/index.js",
+      "rootDir": "/root/.nvm/versions/node/v22.22.3/lib/node_modules/openclaw/dist/extensions/firecrawl",
+      "origin": "bundled",
+      "enabled": false,
+      "startup": {
+        "sidecar": false,
+        "memory": false,
+        "deferConfiguredChannelFullLoadUntilAfterListen": false,
+        "agentHarnesses": []
+      },
+      "compat": [
+        "provider-auth-env-vars"
+      ],
+      "packageName": "@openclaw/firecrawl-plugin",
+      "packageVersion": "2026.5.18",
+      "packageJson": {
+        "path": "package.json",
+        "hash": "0eefcb4c3c2feea9df28c72c7bc1e22c87054d143730cc0e1146878faf64240e",
+        "fileSignature": {
+          "size": 339,
           "mtimeMs": 1779300345565.0981,
           "ctimeMs": 1779300345565.0981
         }
@@ -502,6 +1040,40 @@
       }
     },
     {
+      "pluginId": "gradium",
+      "manifestPath": "/root/.nvm/versions/node/v22.22.3/lib/node_modules/openclaw/dist/extensions/gradium/openclaw.plugin.json",
+      "manifestHash": "5bf59788c06079f3cdc53ff8a8cfdbe1e90499797bcd88dfeb8058a2625047c3",
+      "manifestFile": {
+        "size": 319,
+        "mtimeMs": 1779300345501.0981,
+        "ctimeMs": 1779300345501.0981
+      },
+      "source": "/root/.nvm/versions/node/v22.22.3/lib/node_modules/openclaw/dist/extensions/gradium/index.js",
+      "rootDir": "/root/.nvm/versions/node/v22.22.3/lib/node_modules/openclaw/dist/extensions/gradium",
+      "origin": "bundled",
+      "enabled": false,
+      "startup": {
+        "sidecar": false,
+        "memory": false,
+        "deferConfiguredChannelFullLoadUntilAfterListen": false,
+        "agentHarnesses": []
+      },
+      "compat": [
+        "provider-auth-env-vars"
+      ],
+      "packageName": "@openclaw/gradium-speech",
+      "packageVersion": "2026.5.18",
+      "packageJson": {
+        "path": "package.json",
+        "hash": "7f177b7af03c4365f73d5958156e49435ccea690efb88b6ef5b39e6a76d93be2",
+        "fileSignature": {
+          "size": 293,
+          "mtimeMs": 1779300345569.0981,
+          "ctimeMs": 1779300345569.0981
+        }
+      }
+    },
+    {
       "pluginId": "groq",
       "manifestPath": "/root/.nvm/versions/node/v22.22.3/lib/node_modules/openclaw/dist/extensions/groq/openclaw.plugin.json",
       "manifestHash": "5eeb70d7023a5353ab86158c75df5e20560738ea4d724279909fb09f5dcbe018",
@@ -566,6 +1138,162 @@
           "size": 306,
           "mtimeMs": 1779300345569.0981,
           "ctimeMs": 1779300345569.0981
+        }
+      }
+    },
+    {
+      "pluginId": "imessage",
+      "manifestPath": "/root/.nvm/versions/node/v22.22.3/lib/node_modules/openclaw/dist/extensions/imessage/openclaw.plugin.json",
+      "manifestHash": "ea2011f2118e95fd5550df73d77e843653877b6f2edf74c5a9aa85c199b32b28",
+      "manifestFile": {
+        "size": 24873,
+        "mtimeMs": 1779300345505.0981,
+        "ctimeMs": 1779300345505.0981
+      },
+      "source": "/root/.nvm/versions/node/v22.22.3/lib/node_modules/openclaw/dist/extensions/imessage/index.js",
+      "rootDir": "/root/.nvm/versions/node/v22.22.3/lib/node_modules/openclaw/dist/extensions/imessage",
+      "origin": "bundled",
+      "enabled": false,
+      "startup": {
+        "sidecar": false,
+        "memory": false,
+        "deferConfiguredChannelFullLoadUntilAfterListen": false,
+        "agentHarnesses": []
+      },
+      "compat": [],
+      "setupSource": "/root/.nvm/versions/node/v22.22.3/lib/node_modules/openclaw/dist/extensions/imessage/setup-entry.js",
+      "packageName": "@openclaw/imessage",
+      "packageVersion": "2026.5.18",
+      "packageChannel": {
+        "id": "imessage",
+        "label": "iMessage",
+        "selectionLabel": "iMessage (imsg)",
+        "detailLabel": "iMessage",
+        "docsPath": "/channels/imessage",
+        "docsLabel": "imessage",
+        "blurb": "Local iMessage/SMS through the imsg bridge, including private API message actions when enabled.",
+        "aliases": [
+          "imsg"
+        ],
+        "systemImage": "message.fill",
+        "cliAddOptions": [
+          {
+            "flags": "--db-path <path>",
+            "description": "iMessage database path"
+          },
+          {
+            "flags": "--service <service>",
+            "description": "iMessage service (imessage|sms|auto)"
+          },
+          {
+            "flags": "--region <region>",
+            "description": "iMessage region (for SMS)"
+          }
+        ]
+      },
+      "packageJson": {
+        "path": "package.json",
+        "hash": "025b039e5255686a59f91fe51f3a92387d7ee1be9837b4f7f926e020cd1f56d8",
+        "fileSignature": {
+          "size": 1761,
+          "mtimeMs": 1779300345569.0981,
+          "ctimeMs": 1779300345569.0981
+        }
+      }
+    },
+    {
+      "pluginId": "inworld",
+      "manifestPath": "/root/.nvm/versions/node/v22.22.3/lib/node_modules/openclaw/dist/extensions/inworld/openclaw.plugin.json",
+      "manifestHash": "9844afe693d076d7375fa4e759c6654a9af7a1b9b90ee49322cb828648351d3e",
+      "manifestFile": {
+        "size": 1229,
+        "mtimeMs": 1779300345505.0981,
+        "ctimeMs": 1779300345505.0981
+      },
+      "source": "/root/.nvm/versions/node/v22.22.3/lib/node_modules/openclaw/dist/extensions/inworld/index.js",
+      "rootDir": "/root/.nvm/versions/node/v22.22.3/lib/node_modules/openclaw/dist/extensions/inworld",
+      "origin": "bundled",
+      "enabled": true,
+      "startup": {
+        "sidecar": false,
+        "memory": false,
+        "deferConfiguredChannelFullLoadUntilAfterListen": false,
+        "agentHarnesses": []
+      },
+      "compat": [
+        "provider-auth-env-vars"
+      ],
+      "enabledByDefault": true,
+      "packageName": "@openclaw/inworld-speech",
+      "packageVersion": "2026.5.18",
+      "packageJson": {
+        "path": "package.json",
+        "hash": "354b73a277aa6ea74d1bfbe7640816ef34b90f4cb26d2a249d9b4ce577cc9888",
+        "fileSignature": {
+          "size": 293,
+          "mtimeMs": 1779300345573.0981,
+          "ctimeMs": 1779300345573.0981
+        }
+      }
+    },
+    {
+      "pluginId": "irc",
+      "manifestPath": "/root/.nvm/versions/node/v22.22.3/lib/node_modules/openclaw/dist/extensions/irc/openclaw.plugin.json",
+      "manifestHash": "1065f8ff5cf69276d66de118b25933972e29907d942a18eb36994080f40a5a8d",
+      "manifestFile": {
+        "size": 21165,
+        "mtimeMs": 1779300345505.0981,
+        "ctimeMs": 1779300345505.0981
+      },
+      "source": "/root/.nvm/versions/node/v22.22.3/lib/node_modules/openclaw/dist/extensions/irc/index.js",
+      "rootDir": "/root/.nvm/versions/node/v22.22.3/lib/node_modules/openclaw/dist/extensions/irc",
+      "origin": "bundled",
+      "enabled": false,
+      "startup": {
+        "sidecar": false,
+        "memory": false,
+        "deferConfiguredChannelFullLoadUntilAfterListen": false,
+        "agentHarnesses": []
+      },
+      "compat": [
+        "channel-env-vars"
+      ],
+      "setupSource": "/root/.nvm/versions/node/v22.22.3/lib/node_modules/openclaw/dist/extensions/irc/setup-entry.js",
+      "packageName": "@openclaw/irc",
+      "packageVersion": "2026.5.18",
+      "packageInstall": {
+        "warnings": []
+      },
+      "packageChannel": {
+        "id": "irc",
+        "label": "IRC",
+        "selectionLabel": "IRC (Server + Nick)",
+        "detailLabel": "IRC",
+        "docsPath": "/channels/irc",
+        "docsLabel": "irc",
+        "blurb": "classic IRC networks with DM/channel routing and pairing controls.",
+        "aliases": [
+          "internet-relay-chat"
+        ],
+        "systemImage": "network",
+        "configuredState": {
+          "env": {
+            "allOf": [
+              "IRC_HOST",
+              "IRC_NICK"
+            ]
+          },
+          "specifier": "./configured-state",
+          "exportName": "hasIrcConfiguredState"
+        }
+      },
+      "packageJson": {
+        "path": "package.json",
+        "hash": "7dbe1477e833435d897cfc5ac73d7a13448bb16966f7c2e27b687614a797c32f",
+        "fileSignature": {
+          "size": 1012,
+          "mtimeMs": 1779300345573.0981,
+          "ctimeMs": 1779300345573.0981
         }
       }
     },
@@ -675,6 +1403,38 @@
       }
     },
     {
+      "pluginId": "llm-task",
+      "manifestPath": "/root/.nvm/versions/node/v22.22.3/lib/node_modules/openclaw/dist/extensions/llm-task/openclaw.plugin.json",
+      "manifestHash": "4464775c644d263994cb70041bdc5ce20f1239c75bdc40c9888dc7b1e186084f",
+      "manifestFile": {
+        "size": 944,
+        "mtimeMs": 1779300345509.0981,
+        "ctimeMs": 1779300345509.0981
+      },
+      "source": "/root/.nvm/versions/node/v22.22.3/lib/node_modules/openclaw/dist/extensions/llm-task/index.js",
+      "rootDir": "/root/.nvm/versions/node/v22.22.3/lib/node_modules/openclaw/dist/extensions/llm-task",
+      "origin": "bundled",
+      "enabled": false,
+      "startup": {
+        "sidecar": true,
+        "memory": false,
+        "deferConfiguredChannelFullLoadUntilAfterListen": false,
+        "agentHarnesses": []
+      },
+      "compat": [],
+      "packageName": "@openclaw/llm-task",
+      "packageVersion": "2026.5.18",
+      "packageJson": {
+        "path": "package.json",
+        "hash": "66632848aa5eb2078b2f070e368d4b7d332ef30584ad573b0f6f1764c00501cd",
+        "fileSignature": {
+          "size": 340,
+          "mtimeMs": 1779300345573.0981,
+          "ctimeMs": 1779300345573.0981
+        }
+      }
+    },
+    {
       "pluginId": "lmstudio",
       "manifestPath": "/root/.nvm/versions/node/v22.22.3/lib/node_modules/openclaw/dist/extensions/lmstudio/openclaw.plugin.json",
       "manifestHash": "0d03315ae27a60855763b052be8b61144719d8e2ab627ab1368263c0b2fbcf0b",
@@ -704,6 +1464,53 @@
         "hash": "e2aafa6a169d346e70916e397a069d4b7af708d2b7e3f76719b6616789fc9393",
         "fileSignature": {
           "size": 293,
+          "mtimeMs": 1779300345577.0984,
+          "ctimeMs": 1779300345577.0984
+        }
+      }
+    },
+    {
+      "pluginId": "mattermost",
+      "manifestPath": "/root/.nvm/versions/node/v22.22.3/lib/node_modules/openclaw/dist/extensions/mattermost/openclaw.plugin.json",
+      "manifestHash": "9f23ba952b74847285aa4feed3787aeb04ecf6d9557c96c597d968ec24f774fd",
+      "manifestFile": {
+        "size": 32733,
+        "mtimeMs": 1779300345513.0981,
+        "ctimeMs": 1779300345513.0981
+      },
+      "source": "/root/.nvm/versions/node/v22.22.3/lib/node_modules/openclaw/dist/extensions/mattermost/index.js",
+      "rootDir": "/root/.nvm/versions/node/v22.22.3/lib/node_modules/openclaw/dist/extensions/mattermost",
+      "origin": "bundled",
+      "enabled": false,
+      "startup": {
+        "sidecar": false,
+        "memory": false,
+        "deferConfiguredChannelFullLoadUntilAfterListen": false,
+        "agentHarnesses": []
+      },
+      "compat": [
+        "channel-env-vars"
+      ],
+      "setupSource": "/root/.nvm/versions/node/v22.22.3/lib/node_modules/openclaw/dist/extensions/mattermost/setup-entry.js",
+      "packageName": "@openclaw/mattermost",
+      "packageVersion": "2026.5.18",
+      "packageInstall": {
+        "warnings": []
+      },
+      "packageChannel": {
+        "id": "mattermost",
+        "label": "Mattermost",
+        "selectionLabel": "Mattermost (plugin)",
+        "docsPath": "/channels/mattermost",
+        "docsLabel": "mattermost",
+        "blurb": "self-hosted Slack-style chat; install the plugin to enable.",
+        "order": 65
+      },
+      "packageJson": {
+        "path": "package.json",
+        "hash": "9e23ed295d52b6d50f75c75d354f2bdda2b42ec886750b0702a82bdb9278e79a",
+        "fileSignature": {
+          "size": 997,
           "mtimeMs": 1779300345577.0984,
           "ctimeMs": 1779300345577.0984
         }
@@ -742,6 +1549,71 @@
       }
     },
     {
+      "pluginId": "memory-wiki",
+      "manifestPath": "/root/.nvm/versions/node/v22.22.3/lib/node_modules/openclaw/dist/extensions/memory-wiki/openclaw.plugin.json",
+      "manifestHash": "75985149f5886866ce34c0b556bba252237629385ea57fba748d68544c5a3f76",
+      "manifestFile": {
+        "size": 5206,
+        "mtimeMs": 1779300345513.0981,
+        "ctimeMs": 1779300345513.0981
+      },
+      "source": "/root/.nvm/versions/node/v22.22.3/lib/node_modules/openclaw/dist/extensions/memory-wiki/index.js",
+      "rootDir": "/root/.nvm/versions/node/v22.22.3/lib/node_modules/openclaw/dist/extensions/memory-wiki",
+      "origin": "bundled",
+      "enabled": false,
+      "startup": {
+        "sidecar": true,
+        "memory": false,
+        "deferConfiguredChannelFullLoadUntilAfterListen": false,
+        "agentHarnesses": []
+      },
+      "compat": [],
+      "packageName": "@openclaw/memory-wiki",
+      "packageVersion": "2026.5.18",
+      "packageJson": {
+        "path": "package.json",
+        "hash": "62795c47ba9ffefa10e01f1fc37c440750c082927aa0543f83f3df7088eab51f",
+        "fileSignature": {
+          "size": 551,
+          "mtimeMs": 1779300345577.0984,
+          "ctimeMs": 1779300345577.0984
+        }
+      }
+    },
+    {
+      "pluginId": "microsoft",
+      "manifestPath": "/root/.nvm/versions/node/v22.22.3/lib/node_modules/openclaw/dist/extensions/microsoft/openclaw.plugin.json",
+      "manifestHash": "4fae9b5374016e1d457a0c18e7ab86f116af790fea107e1f63c683fe78951d69",
+      "manifestFile": {
+        "size": 272,
+        "mtimeMs": 1779300345513.0981,
+        "ctimeMs": 1779300345513.0981
+      },
+      "source": "/root/.nvm/versions/node/v22.22.3/lib/node_modules/openclaw/dist/extensions/microsoft/index.js",
+      "rootDir": "/root/.nvm/versions/node/v22.22.3/lib/node_modules/openclaw/dist/extensions/microsoft",
+      "origin": "bundled",
+      "enabled": true,
+      "startup": {
+        "sidecar": false,
+        "memory": false,
+        "deferConfiguredChannelFullLoadUntilAfterListen": false,
+        "agentHarnesses": []
+      },
+      "compat": [],
+      "enabledByDefault": true,
+      "packageName": "@openclaw/microsoft-speech",
+      "packageVersion": "2026.5.18",
+      "packageJson": {
+        "path": "package.json",
+        "hash": "b628cab68ab8f31f0423d2c9fec5be816af3e2d98a98c38323d06f10ed701519",
+        "fileSignature": {
+          "size": 352,
+          "mtimeMs": 1779300345577.0984,
+          "ctimeMs": 1779300345577.0984
+        }
+      }
+    },
+    {
       "pluginId": "microsoft-foundry",
       "manifestPath": "/root/.nvm/versions/node/v22.22.3/lib/node_modules/openclaw/dist/extensions/microsoft-foundry/openclaw.plugin.json",
       "manifestHash": "52f4abbe73017c0c006a596c150826bafde6889af3882bb0bb06360ad7dd3c70",
@@ -773,6 +1645,70 @@
           "size": 308,
           "mtimeMs": 1779300345577.0984,
           "ctimeMs": 1779300345577.0984
+        }
+      }
+    },
+    {
+      "pluginId": "migrate-claude",
+      "manifestPath": "/root/.nvm/versions/node/v22.22.3/lib/node_modules/openclaw/dist/extensions/migrate-claude/openclaw.plugin.json",
+      "manifestHash": "ab37718aca1e40a1347c058f5497719ba83f7d30a8c0b5de1bfc27f8638275f2",
+      "manifestFile": {
+        "size": 411,
+        "mtimeMs": 1779300345513.0981,
+        "ctimeMs": 1779300345513.0981
+      },
+      "source": "/root/.nvm/versions/node/v22.22.3/lib/node_modules/openclaw/dist/extensions/migrate-claude/index.js",
+      "rootDir": "/root/.nvm/versions/node/v22.22.3/lib/node_modules/openclaw/dist/extensions/migrate-claude",
+      "origin": "bundled",
+      "enabled": false,
+      "startup": {
+        "sidecar": false,
+        "memory": false,
+        "deferConfiguredChannelFullLoadUntilAfterListen": false,
+        "agentHarnesses": []
+      },
+      "compat": [],
+      "packageName": "@openclaw/migrate-claude",
+      "packageVersion": "2026.5.18",
+      "packageJson": {
+        "path": "package.json",
+        "hash": "fdcfdbf1766abbea2cdc6cbf5d34a675e11c903001730aeb8a825a73090fa811",
+        "fileSignature": {
+          "size": 470,
+          "mtimeMs": 1779300345581.0984,
+          "ctimeMs": 1779300345581.0984
+        }
+      }
+    },
+    {
+      "pluginId": "migrate-hermes",
+      "manifestPath": "/root/.nvm/versions/node/v22.22.3/lib/node_modules/openclaw/dist/extensions/migrate-hermes/openclaw.plugin.json",
+      "manifestHash": "82bb35ee30b4305bd66d2c76d79c3efda1adc348164d36fcae4ba7484f2958d6",
+      "manifestFile": {
+        "size": 388,
+        "mtimeMs": 1779300345517.0981,
+        "ctimeMs": 1779300345517.0981
+      },
+      "source": "/root/.nvm/versions/node/v22.22.3/lib/node_modules/openclaw/dist/extensions/migrate-hermes/index.js",
+      "rootDir": "/root/.nvm/versions/node/v22.22.3/lib/node_modules/openclaw/dist/extensions/migrate-hermes",
+      "origin": "bundled",
+      "enabled": false,
+      "startup": {
+        "sidecar": false,
+        "memory": false,
+        "deferConfiguredChannelFullLoadUntilAfterListen": false,
+        "agentHarnesses": []
+      },
+      "compat": [],
+      "packageName": "@openclaw/migrate-hermes",
+      "packageVersion": "2026.5.18",
+      "packageJson": {
+        "path": "package.json",
+        "hash": "98da38fc07ce0a46c8605344cc5ff9582bcf330b02616f91a781ecdf79f71383",
+        "fileSignature": {
+          "size": 515,
+          "mtimeMs": 1779300345581.0984,
+          "ctimeMs": 1779300345581.0984
         }
       }
     },
@@ -917,6 +1853,40 @@
       }
     },
     {
+      "pluginId": "oc-path",
+      "manifestPath": "/root/.nvm/versions/node/v22.22.3/lib/node_modules/openclaw/dist/extensions/oc-path/openclaw.plugin.json",
+      "manifestHash": "7196ee1480be8d9781d407fbc1def5d51f1f7b5421d882f11bc096ff70db593d",
+      "manifestFile": {
+        "size": 397,
+        "mtimeMs": 1779300345521.0981,
+        "ctimeMs": 1779300345521.0981
+      },
+      "source": "/root/.nvm/versions/node/v22.22.3/lib/node_modules/openclaw/dist/extensions/oc-path/index.js",
+      "rootDir": "/root/.nvm/versions/node/v22.22.3/lib/node_modules/openclaw/dist/extensions/oc-path",
+      "origin": "bundled",
+      "enabled": false,
+      "startup": {
+        "sidecar": false,
+        "memory": false,
+        "deferConfiguredChannelFullLoadUntilAfterListen": false,
+        "agentHarnesses": []
+      },
+      "compat": [
+        "activation-command-hint"
+      ],
+      "packageName": "@openclaw/oc-path",
+      "packageVersion": "2026.5.18",
+      "packageJson": {
+        "path": "package.json",
+        "hash": "56640ba0e42c68e9fd659dd1bae2bcc98a5b1f12650cd78d0290186c198063e8",
+        "fileSignature": {
+          "size": 592,
+          "mtimeMs": 1779300345585.0984,
+          "ctimeMs": 1779300345585.0984
+        }
+      }
+    },
+    {
       "pluginId": "ollama",
       "manifestPath": "/root/.nvm/versions/node/v22.22.3/lib/node_modules/openclaw/dist/extensions/ollama/openclaw.plugin.json",
       "manifestHash": "57cf233f55b01b1f9942528f48bf291c2534094c4a375536feb3794084310738",
@@ -949,6 +1919,38 @@
         "hash": "5cdc510b3eb97808732ca21c61336a2708a252c550c8426dff0156328a0a57c0",
         "fileSignature": {
           "size": 383,
+          "mtimeMs": 1779300345585.0984,
+          "ctimeMs": 1779300345585.0984
+        }
+      }
+    },
+    {
+      "pluginId": "open-prose",
+      "manifestPath": "/root/.nvm/versions/node/v22.22.3/lib/node_modules/openclaw/dist/extensions/open-prose/openclaw.plugin.json",
+      "manifestHash": "b7b6e77271010216cc988012c9238b1b989a5e7ab8a70ad7b98b499031a6b89a",
+      "manifestFile": {
+        "size": 304,
+        "mtimeMs": 1779300345525.0981,
+        "ctimeMs": 1779300345525.0981
+      },
+      "source": "/root/.nvm/versions/node/v22.22.3/lib/node_modules/openclaw/dist/extensions/open-prose/index.js",
+      "rootDir": "/root/.nvm/versions/node/v22.22.3/lib/node_modules/openclaw/dist/extensions/open-prose",
+      "origin": "bundled",
+      "enabled": false,
+      "startup": {
+        "sidecar": false,
+        "memory": false,
+        "deferConfiguredChannelFullLoadUntilAfterListen": false,
+        "agentHarnesses": []
+      },
+      "compat": [],
+      "packageName": "@openclaw/open-prose",
+      "packageVersion": "2026.5.18",
+      "packageJson": {
+        "path": "package.json",
+        "hash": "88a14b9e03feb001f0df274d89c4dffbc991d95cedf4a2e6b9100268bf9d684c",
+        "fileSignature": {
+          "size": 318,
           "mtimeMs": 1779300345585.0984,
           "ctimeMs": 1779300345585.0984
         }
@@ -1095,6 +2097,62 @@
       }
     },
     {
+      "pluginId": "perplexity",
+      "manifestPath": "/root/.nvm/versions/node/v22.22.3/lib/node_modules/openclaw/dist/extensions/perplexity/openclaw.plugin.json",
+      "manifestHash": "e74ebc83aac018f7c6d8324ba6841c383067d7611f29c7b63a3b8f49d082a917",
+      "manifestFile": {
+        "size": 1333,
+        "mtimeMs": 1779300345529.0981,
+        "ctimeMs": 1779300345529.0981
+      },
+      "source": "/root/.nvm/versions/node/v22.22.3/lib/node_modules/openclaw/dist/extensions/perplexity/index.js",
+      "rootDir": "/root/.nvm/versions/node/v22.22.3/lib/node_modules/openclaw/dist/extensions/perplexity",
+      "origin": "bundled",
+      "enabled": false,
+      "startup": {
+        "sidecar": false,
+        "memory": false,
+        "deferConfiguredChannelFullLoadUntilAfterListen": false,
+        "agentHarnesses": []
+      },
+      "compat": [
+        "provider-auth-env-vars"
+      ],
+      "packageName": "@openclaw/perplexity-plugin",
+      "packageVersion": "2026.5.18",
+      "packageJson": {
+        "path": "package.json",
+        "hash": "b0c0a6bc84f53e21f7eb838070607b0991500766c787203a3aeb3deeb316cd22",
+        "fileSignature": {
+          "size": 292,
+          "mtimeMs": 1779300345589.0984,
+          "ctimeMs": 1779300345589.0984
+        }
+      }
+    },
+    {
+      "pluginId": "phone-control",
+      "manifestPath": "/root/.nvm/versions/node/v22.22.3/lib/node_modules/openclaw/dist/extensions/phone-control/openclaw.plugin.json",
+      "manifestHash": "b72511655c2d09e181fae00026ac7aab2784d73c4a351022dd8bd3be68826ec1",
+      "manifestFile": {
+        "size": 437,
+        "mtimeMs": 1779300345529.0981,
+        "ctimeMs": 1779300345529.0981
+      },
+      "source": "/root/.nvm/versions/node/v22.22.3/lib/node_modules/openclaw/dist/extensions/phone-control/index.js",
+      "rootDir": "/root/.nvm/versions/node/v22.22.3/lib/node_modules/openclaw/dist/extensions/phone-control",
+      "origin": "bundled",
+      "enabled": true,
+      "startup": {
+        "sidecar": true,
+        "memory": false,
+        "deferConfiguredChannelFullLoadUntilAfterListen": false,
+        "agentHarnesses": []
+      },
+      "compat": [],
+      "enabledByDefault": true
+    },
+    {
       "pluginId": "qianfan",
       "manifestPath": "/root/.nvm/versions/node/v22.22.3/lib/node_modules/openclaw/dist/extensions/qianfan/openclaw.plugin.json",
       "manifestHash": "fb676780f2ff142c2815e000350f806ec6c8e9f6fe7da8013274be6c7e5d365e",
@@ -1163,6 +2221,108 @@
       }
     },
     {
+      "pluginId": "runway",
+      "manifestPath": "/root/.nvm/versions/node/v22.22.3/lib/node_modules/openclaw/dist/extensions/runway/openclaw.plugin.json",
+      "manifestHash": "85ba6a67ee0c0c754b459df417c143cf0bb54d70c06ba7682ed94a5560bcd879",
+      "manifestFile": {
+        "size": 864,
+        "mtimeMs": 1779300345529.0981,
+        "ctimeMs": 1779300345529.0981
+      },
+      "source": "/root/.nvm/versions/node/v22.22.3/lib/node_modules/openclaw/dist/extensions/runway/index.js",
+      "rootDir": "/root/.nvm/versions/node/v22.22.3/lib/node_modules/openclaw/dist/extensions/runway",
+      "origin": "bundled",
+      "enabled": true,
+      "startup": {
+        "sidecar": false,
+        "memory": false,
+        "deferConfiguredChannelFullLoadUntilAfterListen": false,
+        "agentHarnesses": []
+      },
+      "compat": [
+        "provider-auth-env-vars"
+      ],
+      "enabledByDefault": true,
+      "packageName": "@openclaw/runway-provider",
+      "packageVersion": "2026.5.18",
+      "packageJson": {
+        "path": "package.json",
+        "hash": "544e944566f551156984f5bbb02ca27c160a3833140690d0f9f15d7ad5a48d4e",
+        "fileSignature": {
+          "size": 301,
+          "mtimeMs": 1779300345589.0984,
+          "ctimeMs": 1779300345589.0984
+        }
+      }
+    },
+    {
+      "pluginId": "searxng",
+      "manifestPath": "/root/.nvm/versions/node/v22.22.3/lib/node_modules/openclaw/dist/extensions/searxng/openclaw.plugin.json",
+      "manifestHash": "1870f1133b5090e746c1507328755b5972e69bca59c7de72c5285ea18f514d3b",
+      "manifestFile": {
+        "size": 1141,
+        "mtimeMs": 1779300345529.0981,
+        "ctimeMs": 1779300345529.0981
+      },
+      "source": "/root/.nvm/versions/node/v22.22.3/lib/node_modules/openclaw/dist/extensions/searxng/index.js",
+      "rootDir": "/root/.nvm/versions/node/v22.22.3/lib/node_modules/openclaw/dist/extensions/searxng",
+      "origin": "bundled",
+      "enabled": false,
+      "startup": {
+        "sidecar": false,
+        "memory": false,
+        "deferConfiguredChannelFullLoadUntilAfterListen": false,
+        "agentHarnesses": []
+      },
+      "compat": [],
+      "packageName": "@openclaw/searxng-plugin",
+      "packageVersion": "2026.5.18",
+      "packageJson": {
+        "path": "package.json",
+        "hash": "a08648e13d1718f24abf421e340d5e6592cb5fc73d944d3f2544d445c8827c69",
+        "fileSignature": {
+          "size": 286,
+          "mtimeMs": 1779300345589.0984,
+          "ctimeMs": 1779300345589.0984
+        }
+      }
+    },
+    {
+      "pluginId": "senseaudio",
+      "manifestPath": "/root/.nvm/versions/node/v22.22.3/lib/node_modules/openclaw/dist/extensions/senseaudio/openclaw.plugin.json",
+      "manifestHash": "8127452c5a626bc5f6120ea7cf693bacfe2ff2e682173c1b8bd82e0ee9910bea",
+      "manifestFile": {
+        "size": 371,
+        "mtimeMs": 1779300345529.0981,
+        "ctimeMs": 1779300345529.0981
+      },
+      "source": "/root/.nvm/versions/node/v22.22.3/lib/node_modules/openclaw/dist/extensions/senseaudio/index.js",
+      "rootDir": "/root/.nvm/versions/node/v22.22.3/lib/node_modules/openclaw/dist/extensions/senseaudio",
+      "origin": "bundled",
+      "enabled": true,
+      "startup": {
+        "sidecar": false,
+        "memory": false,
+        "deferConfiguredChannelFullLoadUntilAfterListen": false,
+        "agentHarnesses": []
+      },
+      "compat": [
+        "provider-auth-env-vars"
+      ],
+      "enabledByDefault": true,
+      "packageName": "@openclaw/senseaudio-provider",
+      "packageVersion": "2026.5.18",
+      "packageJson": {
+        "path": "package.json",
+        "hash": "a554197bd15b6506e3f89750afae7f22c1725274681f13028f7ef58b2d90a20a",
+        "fileSignature": {
+          "size": 316,
+          "mtimeMs": 1779300345589.0984,
+          "ctimeMs": 1779300345589.0984
+        }
+      }
+    },
+    {
       "pluginId": "sglang",
       "manifestPath": "/root/.nvm/versions/node/v22.22.3/lib/node_modules/openclaw/dist/extensions/sglang/openclaw.plugin.json",
       "manifestHash": "b5144177b734d85fd025fedbbc424386b62a36667e18e66b0244ae5ffb226986",
@@ -1194,6 +2354,96 @@
           "size": 295,
           "mtimeMs": 1779300345589.0984,
           "ctimeMs": 1779300345589.0984
+        }
+      }
+    },
+    {
+      "pluginId": "signal",
+      "manifestPath": "/root/.nvm/versions/node/v22.22.3/lib/node_modules/openclaw/dist/extensions/signal/openclaw.plugin.json",
+      "manifestHash": "a54e3e6509f191f2d017b60ef10b000fbc705f0151ddd4a6e2fcf589f0326af2",
+      "manifestFile": {
+        "size": 22270,
+        "mtimeMs": 1779300345533.0981,
+        "ctimeMs": 1779300345533.0981
+      },
+      "source": "/root/.nvm/versions/node/v22.22.3/lib/node_modules/openclaw/dist/extensions/signal/index.js",
+      "rootDir": "/root/.nvm/versions/node/v22.22.3/lib/node_modules/openclaw/dist/extensions/signal",
+      "origin": "bundled",
+      "enabled": false,
+      "startup": {
+        "sidecar": false,
+        "memory": false,
+        "deferConfiguredChannelFullLoadUntilAfterListen": false,
+        "agentHarnesses": []
+      },
+      "compat": [],
+      "setupSource": "/root/.nvm/versions/node/v22.22.3/lib/node_modules/openclaw/dist/extensions/signal/setup-entry.js",
+      "packageName": "@openclaw/signal",
+      "packageVersion": "2026.5.18",
+      "packageChannel": {
+        "id": "signal",
+        "label": "Signal",
+        "selectionLabel": "Signal (signal-cli)",
+        "detailLabel": "Signal REST",
+        "docsPath": "/channels/signal",
+        "docsLabel": "signal",
+        "blurb": "signal-cli linked device; more setup (David Reagans: \"Hop on Discord.\").",
+        "systemImage": "antenna.radiowaves.left.and.right",
+        "markdownCapable": true,
+        "cliAddOptions": [
+          {
+            "flags": "--signal-number <e164>",
+            "description": "Signal account number (E.164)"
+          },
+          {
+            "flags": "--http-host <host>",
+            "description": "Signal HTTP daemon host"
+          },
+          {
+            "flags": "--http-port <port>",
+            "description": "Signal HTTP daemon port"
+          }
+        ]
+      },
+      "packageJson": {
+        "path": "package.json",
+        "hash": "11a3d090079e85761bd9cae34cf2f95324d8ed16edc1edbe14d3fb80c4432a8c",
+        "fileSignature": {
+          "size": 1151,
+          "mtimeMs": 1779300345593.0984,
+          "ctimeMs": 1779300345593.0984
+        }
+      }
+    },
+    {
+      "pluginId": "skill-workshop",
+      "manifestPath": "/root/.nvm/versions/node/v22.22.3/lib/node_modules/openclaw/dist/extensions/skill-workshop/openclaw.plugin.json",
+      "manifestHash": "f480b74bb21088de8def5612525f1892d5f50ca54beedc086122beca75ac77dd",
+      "manifestFile": {
+        "size": 2198,
+        "mtimeMs": 1779300345533.0981,
+        "ctimeMs": 1779300345533.0981
+      },
+      "source": "/root/.nvm/versions/node/v22.22.3/lib/node_modules/openclaw/dist/extensions/skill-workshop/index.js",
+      "rootDir": "/root/.nvm/versions/node/v22.22.3/lib/node_modules/openclaw/dist/extensions/skill-workshop",
+      "origin": "bundled",
+      "enabled": false,
+      "startup": {
+        "sidecar": true,
+        "memory": false,
+        "deferConfiguredChannelFullLoadUntilAfterListen": false,
+        "agentHarnesses": []
+      },
+      "compat": [],
+      "packageName": "@openclaw/skill-workshop",
+      "packageVersion": "2026.5.18",
+      "packageJson": {
+        "path": "package.json",
+        "hash": "ab98e425323fed0e83ae7223acce1d0696ed433cb08dd8d528b9f4f41a6d1ce4",
+        "fileSignature": {
+          "size": 342,
+          "mtimeMs": 1779300345593.0984,
+          "ctimeMs": 1779300345593.0984
         }
       }
     },
@@ -1266,6 +2516,126 @@
       }
     },
     {
+      "pluginId": "talk-voice",
+      "manifestPath": "/root/.nvm/versions/node/v22.22.3/lib/node_modules/openclaw/dist/extensions/talk-voice/openclaw.plugin.json",
+      "manifestHash": "e74b5b2dfff117b54cd80728c4fc5b54a56085fc870e6f9d5c9914a151aa812f",
+      "manifestFile": {
+        "size": 377,
+        "mtimeMs": 1779300345537.0981,
+        "ctimeMs": 1779300345537.0981
+      },
+      "source": "/root/.nvm/versions/node/v22.22.3/lib/node_modules/openclaw/dist/extensions/talk-voice/index.js",
+      "rootDir": "/root/.nvm/versions/node/v22.22.3/lib/node_modules/openclaw/dist/extensions/talk-voice",
+      "origin": "bundled",
+      "enabled": true,
+      "startup": {
+        "sidecar": true,
+        "memory": false,
+        "deferConfiguredChannelFullLoadUntilAfterListen": false,
+        "agentHarnesses": []
+      },
+      "compat": [],
+      "enabledByDefault": true
+    },
+    {
+      "pluginId": "tavily",
+      "manifestPath": "/root/.nvm/versions/node/v22.22.3/lib/node_modules/openclaw/dist/extensions/tavily/openclaw.plugin.json",
+      "manifestHash": "a1166b6ed60832b3359628844e6dead8b4869802eb8c520dfa9bd1ce16dbe59b",
+      "manifestFile": {
+        "size": 1190,
+        "mtimeMs": 1779300345537.0981,
+        "ctimeMs": 1779300345537.0981
+      },
+      "source": "/root/.nvm/versions/node/v22.22.3/lib/node_modules/openclaw/dist/extensions/tavily/index.js",
+      "rootDir": "/root/.nvm/versions/node/v22.22.3/lib/node_modules/openclaw/dist/extensions/tavily",
+      "origin": "bundled",
+      "enabled": false,
+      "startup": {
+        "sidecar": false,
+        "memory": false,
+        "deferConfiguredChannelFullLoadUntilAfterListen": false,
+        "agentHarnesses": []
+      },
+      "compat": [
+        "provider-auth-env-vars"
+      ],
+      "packageName": "@openclaw/tavily-plugin",
+      "packageVersion": "2026.5.18",
+      "packageJson": {
+        "path": "package.json",
+        "hash": "7056a80391e3ba677a4943eb936d2521eb0dc4ea34c6791a5d69c6c0d931d31b",
+        "fileSignature": {
+          "size": 333,
+          "mtimeMs": 1779300345593.0984,
+          "ctimeMs": 1779300345593.0984
+        }
+      }
+    },
+    {
+      "pluginId": "telegram",
+      "manifestPath": "/root/.nvm/versions/node/v22.22.3/lib/node_modules/openclaw/dist/extensions/telegram/openclaw.plugin.json",
+      "manifestHash": "8894611a0bb0adc8e83355ca5b65c6f4b45344cabfa2ecd6ed4688dfbe01a5eb",
+      "manifestFile": {
+        "size": 96534,
+        "mtimeMs": 1779300345537.0981,
+        "ctimeMs": 1779300345537.0981
+      },
+      "source": "/root/.nvm/versions/node/v22.22.3/lib/node_modules/openclaw/dist/extensions/telegram/index.js",
+      "rootDir": "/root/.nvm/versions/node/v22.22.3/lib/node_modules/openclaw/dist/extensions/telegram",
+      "origin": "bundled",
+      "enabled": true,
+      "startup": {
+        "sidecar": false,
+        "memory": false,
+        "deferConfiguredChannelFullLoadUntilAfterListen": false,
+        "agentHarnesses": []
+      },
+      "compat": [
+        "channel-env-vars"
+      ],
+      "setupSource": "/root/.nvm/versions/node/v22.22.3/lib/node_modules/openclaw/dist/extensions/telegram/setup-entry.js",
+      "packageName": "@openclaw/telegram",
+      "packageVersion": "2026.5.18",
+      "packageChannel": {
+        "id": "telegram",
+        "label": "Telegram",
+        "selectionLabel": "Telegram (Bot API)",
+        "detailLabel": "Telegram Bot",
+        "docsPath": "/channels/telegram",
+        "docsLabel": "telegram",
+        "blurb": "simplest way to get started — register a bot with @BotFather and get going.",
+        "systemImage": "paperplane",
+        "selectionDocsPrefix": "",
+        "selectionDocsOmitLabel": true,
+        "selectionExtras": [
+          "https://openclaw.ai"
+        ],
+        "markdownCapable": true,
+        "commands": {
+          "nativeCommandsAutoEnabled": true,
+          "nativeSkillsAutoEnabled": true
+        },
+        "configuredState": {
+          "env": {
+            "allOf": [
+              "TELEGRAM_BOT_TOKEN"
+            ]
+          },
+          "specifier": "./configured-state",
+          "exportName": "hasTelegramConfiguredState"
+        }
+      },
+      "packageJson": {
+        "path": "package.json",
+        "hash": "0a0d9c6305eca7e41637f3242136d382045fc08df2f04723cf617fc6dd40aa10",
+        "fileSignature": {
+          "size": 1464,
+          "mtimeMs": 1779300345593.0984,
+          "ctimeMs": 1779300345593.0984
+        }
+      }
+    },
+    {
       "pluginId": "tencent",
       "manifestPath": "/root/.nvm/versions/node/v22.22.3/lib/node_modules/openclaw/dist/extensions/tencent/openclaw.plugin.json",
       "manifestHash": "dcb06176f0b80b0e9d238a8711d5ec2dd481eea07af21af37d810745c4215e4a",
@@ -1301,6 +2671,27 @@
       }
     },
     {
+      "pluginId": "thread-ownership",
+      "manifestPath": "/root/.nvm/versions/node/v22.22.3/lib/node_modules/openclaw/dist/extensions/thread-ownership/openclaw.plugin.json",
+      "manifestHash": "d9b6ba4a091fbd003fe01376b6ebb6c63c0adf67b92e77c814210fea908213f2",
+      "manifestFile": {
+        "size": 845,
+        "mtimeMs": 1779300345537.0981,
+        "ctimeMs": 1779300345537.0981
+      },
+      "source": "/root/.nvm/versions/node/v22.22.3/lib/node_modules/openclaw/dist/extensions/thread-ownership/index.js",
+      "rootDir": "/root/.nvm/versions/node/v22.22.3/lib/node_modules/openclaw/dist/extensions/thread-ownership",
+      "origin": "bundled",
+      "enabled": false,
+      "startup": {
+        "sidecar": true,
+        "memory": false,
+        "deferConfiguredChannelFullLoadUntilAfterListen": false,
+        "agentHarnesses": []
+      },
+      "compat": []
+    },
+    {
       "pluginId": "together",
       "manifestPath": "/root/.nvm/versions/node/v22.22.3/lib/node_modules/openclaw/dist/extensions/together/openclaw.plugin.json",
       "manifestHash": "5550d194d452815b3e852c40932bbea4751da8a9fb978c219ebf836e1e070bb4",
@@ -1330,6 +2721,71 @@
         "hash": "0ecd7aaae2a10ca9f82ee65a4b6ddcbaf0d1b83376b33238495fe7fe6e6a7164",
         "fileSignature": {
           "size": 299,
+          "mtimeMs": 1779300345597.0984,
+          "ctimeMs": 1779300345597.0984
+        }
+      }
+    },
+    {
+      "pluginId": "tokenjuice",
+      "manifestPath": "/root/.nvm/versions/node/v22.22.3/lib/node_modules/openclaw/dist/extensions/tokenjuice/openclaw.plugin.json",
+      "manifestHash": "48244d67406b7ea708353ccbd6ef9d80805ea81b1f00595317cdd9a629be4cb4",
+      "manifestFile": {
+        "size": 369,
+        "mtimeMs": 1779300345541.0981,
+        "ctimeMs": 1779300345541.0981
+      },
+      "source": "/root/.nvm/versions/node/v22.22.3/lib/node_modules/openclaw/dist/extensions/tokenjuice/index.js",
+      "rootDir": "/root/.nvm/versions/node/v22.22.3/lib/node_modules/openclaw/dist/extensions/tokenjuice",
+      "origin": "bundled",
+      "enabled": false,
+      "startup": {
+        "sidecar": false,
+        "memory": false,
+        "deferConfiguredChannelFullLoadUntilAfterListen": false,
+        "agentHarnesses": []
+      },
+      "compat": [],
+      "packageName": "@openclaw/tokenjuice",
+      "packageVersion": "2026.5.18",
+      "packageJson": {
+        "path": "package.json",
+        "hash": "da7fbb74982be5d5eced895f9936aa7ed0fa6dfa4a6af8e759f3aea7ffa0753d",
+        "fileSignature": {
+          "size": 339,
+          "mtimeMs": 1779300345597.0984,
+          "ctimeMs": 1779300345597.0984
+        }
+      }
+    },
+    {
+      "pluginId": "tts-local-cli",
+      "manifestPath": "/root/.nvm/versions/node/v22.22.3/lib/node_modules/openclaw/dist/extensions/tts-local-cli/openclaw.plugin.json",
+      "manifestHash": "3d5e89884b8b1e7a70bf66a931ac9065253f045e80c04121b706ab6cd60c26a7",
+      "manifestFile": {
+        "size": 293,
+        "mtimeMs": 1779300345541.0981,
+        "ctimeMs": 1779300345541.0981
+      },
+      "source": "/root/.nvm/versions/node/v22.22.3/lib/node_modules/openclaw/dist/extensions/tts-local-cli/index.js",
+      "rootDir": "/root/.nvm/versions/node/v22.22.3/lib/node_modules/openclaw/dist/extensions/tts-local-cli",
+      "origin": "bundled",
+      "enabled": true,
+      "startup": {
+        "sidecar": false,
+        "memory": false,
+        "deferConfiguredChannelFullLoadUntilAfterListen": false,
+        "agentHarnesses": []
+      },
+      "compat": [],
+      "enabledByDefault": true,
+      "packageName": "@openclaw/tts-local-cli",
+      "packageVersion": "2026.5.18",
+      "packageJson": {
+        "path": "package.json",
+        "hash": "7fa49d49a26d5d2384d5eed0622c76dca12ae7fb50ef64d5465f317e320eef32",
+        "fileSignature": {
+          "size": 291,
           "mtimeMs": 1779300345597.0984,
           "ctimeMs": 1779300345597.0984
         }
@@ -1474,6 +2930,41 @@
       }
     },
     {
+      "pluginId": "voyage",
+      "manifestPath": "/root/.nvm/versions/node/v22.22.3/lib/node_modules/openclaw/dist/extensions/voyage/openclaw.plugin.json",
+      "manifestHash": "d5064db53aabba5a0dff434cbb696ddac00872baf91b41a9ead4e91068b4a834",
+      "manifestFile": {
+        "size": 352,
+        "mtimeMs": 1779300345545.0981,
+        "ctimeMs": 1779300345545.0981
+      },
+      "source": "/root/.nvm/versions/node/v22.22.3/lib/node_modules/openclaw/dist/extensions/voyage/index.js",
+      "rootDir": "/root/.nvm/versions/node/v22.22.3/lib/node_modules/openclaw/dist/extensions/voyage",
+      "origin": "bundled",
+      "enabled": true,
+      "startup": {
+        "sidecar": false,
+        "memory": false,
+        "deferConfiguredChannelFullLoadUntilAfterListen": false,
+        "agentHarnesses": []
+      },
+      "compat": [
+        "provider-auth-env-vars"
+      ],
+      "enabledByDefault": true,
+      "packageName": "@openclaw/voyage-provider",
+      "packageVersion": "2026.5.18",
+      "packageJson": {
+        "path": "package.json",
+        "hash": "e5ac480a3a4f47d8997b55eb967d98d2a91314ae506ad545a4accfd247f85dad",
+        "fileSignature": {
+          "size": 305,
+          "mtimeMs": 1779300345605.0984,
+          "ctimeMs": 1779300345605.0984
+        }
+      }
+    },
+    {
       "pluginId": "vydra",
       "manifestPath": "/root/.nvm/versions/node/v22.22.3/lib/node_modules/openclaw/dist/extensions/vydra/openclaw.plugin.json",
       "manifestHash": "32d6dc637659275061ddde70ae3d07f9614ba6b28c6e7c1a32f3b53d1e65f71f",
@@ -1503,6 +2994,71 @@
         "hash": "95c0be422b9c65ed56ffc40a8296ea3d1a9ebdcd73302db0ef2f28641ffb1676",
         "fileSignature": {
           "size": 299,
+          "mtimeMs": 1779300345605.0984,
+          "ctimeMs": 1779300345605.0984
+        }
+      }
+    },
+    {
+      "pluginId": "web-readability",
+      "manifestPath": "/root/.nvm/versions/node/v22.22.3/lib/node_modules/openclaw/dist/extensions/web-readability/openclaw.plugin.json",
+      "manifestHash": "3fb9b2d5c284d27c5bef18b63c99baf5f2bdfd82ac874b342fd387f450b2d7e8",
+      "manifestFile": {
+        "size": 415,
+        "mtimeMs": 1779300345545.0981,
+        "ctimeMs": 1779300345545.0981
+      },
+      "source": "/root/.nvm/versions/node/v22.22.3/lib/node_modules/openclaw/dist/extensions/web-readability/index.js",
+      "rootDir": "/root/.nvm/versions/node/v22.22.3/lib/node_modules/openclaw/dist/extensions/web-readability",
+      "origin": "bundled",
+      "enabled": true,
+      "startup": {
+        "sidecar": false,
+        "memory": false,
+        "deferConfiguredChannelFullLoadUntilAfterListen": false,
+        "agentHarnesses": []
+      },
+      "compat": [],
+      "enabledByDefault": true,
+      "packageName": "@openclaw/web-readability-plugin",
+      "packageVersion": "2026.5.18",
+      "packageJson": {
+        "path": "package.json",
+        "hash": "1680be1039ac2aac97ca5cdb286b2912212b84a4a2d2070a04d83b4a3df2f729",
+        "fileSignature": {
+          "size": 407,
+          "mtimeMs": 1779300345605.0984,
+          "ctimeMs": 1779300345605.0984
+        }
+      }
+    },
+    {
+      "pluginId": "webhooks",
+      "manifestPath": "/root/.nvm/versions/node/v22.22.3/lib/node_modules/openclaw/dist/extensions/webhooks/openclaw.plugin.json",
+      "manifestHash": "7191e52bc4113b1ef24deececc8cb6dbfa598e569c96a296af1f787051d9c63a",
+      "manifestFile": {
+        "size": 1865,
+        "mtimeMs": 1779300345545.0981,
+        "ctimeMs": 1779300345545.0981
+      },
+      "source": "/root/.nvm/versions/node/v22.22.3/lib/node_modules/openclaw/dist/extensions/webhooks/index.js",
+      "rootDir": "/root/.nvm/versions/node/v22.22.3/lib/node_modules/openclaw/dist/extensions/webhooks",
+      "origin": "bundled",
+      "enabled": false,
+      "startup": {
+        "sidecar": true,
+        "memory": false,
+        "deferConfiguredChannelFullLoadUntilAfterListen": false,
+        "agentHarnesses": []
+      },
+      "compat": [],
+      "packageName": "@openclaw/webhooks",
+      "packageVersion": "2026.5.18",
+      "packageJson": {
+        "path": "package.json",
+        "hash": "6ca6a5d23924b67b0ff4df6967349bb6021c4e775e994b5469f0e70a41f6e37f",
+        "fileSignature": {
+          "size": 331,
           "mtimeMs": 1779300345605.0984,
           "ctimeMs": 1779300345605.0984
         }
@@ -1615,6 +3171,5 @@
       }
     }
   ],
-  "diagnostics": [],
-  "refreshReason": "migration"
+  "diagnostics": []
 }

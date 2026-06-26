@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "tokenFingerprint": "bf27799423c41f40",
+  "fetchedAt": "2026-06-26T17:46:18.537Z",
+  "botInfo": {
+    "id": 8635247689,
+    "is_bot": true,
+    "first_name": "Thispedrito Bot",
+    "username": "thispedritobot",
+    "can_join_groups": true,
+    "can_read_all_group_messages": false,
+    "can_manage_bots": false,
+    "supports_inline_queries": false,
+    "can_connect_to_business": false,
+    "has_main_web_app": false,
+    "has_topics_enabled": false,
+    "allows_users_to_create_topics": false
+  }
+}
