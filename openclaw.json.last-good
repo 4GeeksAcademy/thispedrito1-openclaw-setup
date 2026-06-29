@@ -21,7 +21,7 @@
   },
   "agents": {
     "defaults": {
-      "workspace": "/root/.openclaw/workspace",
+      "workspace": "/root/.openclaw/workspace-healthcore",
       "models": {
         "litellm/claude-opus-4-6": {
           "alias": "LiteLLM"
@@ -32,7 +32,13 @@
       "model": {
         "primary": "litellm/madrid-spain/openrouter/deepseek/deepseek-v4-flash"
       }
-    }
+    },
+    "list": [
+      {
+        "id": "healthcore",
+        "workspace": "/root/.openclaw/workspace-healthcore"
+      }
+    ]
   },
   "session": {
     "dmScope": "per-channel-peer"

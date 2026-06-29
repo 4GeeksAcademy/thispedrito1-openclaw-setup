@@ -1,0 +1,59 @@
+{
+  "HC-2026-0042": {
+    "employee_id": "HC-2026-0042",
+    "name": "Alex Rivera",
+    "email": "alex.rivera@healthcore.com",
+    "position": "Asistente de Direcci\u00f3n",
+    "location": "Sede de Austin",
+    "legal_region": "US (HIPAA)",
+    "status": "completed",
+    "deliverables": {
+      "medical_license": {
+        "received": true,
+        "date": "2026-06-29T21:51:34Z"
+      },
+      "privacy_form_hipaa": {
+        "received": true,
+        "date": "2026-06-29T21:51:34Z"
+      },
+      "operations_manual": {
+        "received": true,
+        "date": "2026-06-29T21:51:34Z"
+      }
+    },
+    "security_code": "HC-6SO8",
+    "state_changes_since_last_summary": 1,
+    "events": [
+      {
+        "date": "2026-06-29T20:53:50Z",
+        "type": "onboarding_created",
+        "detail": "Registro inicial creado por RRHH (Diane Foster)"
+      },
+      {
+        "date": "2026-06-29T20:57:01Z",
+        "type": "welcome_email_sent",
+        "detail": "Correo de bienvenida enviado a alex.rivera@healthcore.com"
+      },
+      {
+        "date": "2026-06-29T21:04:19Z",
+        "type": "telegram_first_contact",
+        "detail": "Alex contact\u00f3 desde Telegram, pendiente de verificaci\u00f3n de c\u00f3digo"
+      },
+      {
+        "date": "2026-06-29T21:14:59Z",
+        "type": "security_code_validated",
+        "detail": "C\u00f3digo HC-6SO8 validado por Diane Foster. Cuenta activada."
+      },
+      {
+        "date": "2026-06-29T21:51:34Z",
+        "type": "onboarding_completed",
+        "detail": "Alex Rivera complet\u00f3 los 3 entregables. Proceso finalizado."
+      }
+    ],
+    "created_at": "2026-06-29T20:53:50Z",
+    "updated_at": "2026-06-29T21:51:34Z",
+    "telegram_pending_id": "tg-user-99481",
+    "telegram_chat_ids": [],
+    "security_code_status": "used"
+  }
+}

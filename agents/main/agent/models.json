@@ -21,7 +21,8 @@
           "contextWindow": 128000,
           "maxTokens": 8192
         }
-      ]
+      ],
+      "apiKey": "LITELLM_API_KEY"
     }
   }
 }

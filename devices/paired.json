@@ -10,22 +10,26 @@
       "operator"
     ],
     "scopes": [
-      "operator.read"
+      "operator.read",
+      "operator.pairing"
     ],
     "approvedScopes": [
-      "operator.read"
+      "operator.read",
+      "operator.pairing"
     ],
     "tokens": {
       "operator": {
-        "token": "0kz6XmVlPxAS5UqZVpCJx8sFhU19N68iF1liZhTvgxw",
+        "token": "YM8HlrWq2g9rA3L9kzYoaMc-3rpL0RBB1p5N4IbixJ8",
         "role": "operator",
         "scopes": [
+          "operator.pairing",
           "operator.read"
         ],
-        "createdAtMs": 1780526909883
+        "createdAtMs": 1780526909883,
+        "rotatedAtMs": 1782765742377
       }
     },
     "createdAtMs": 1780526909882,
-    "approvedAtMs": 1780526909882
+    "approvedAtMs": 1782765742373
   }
 }

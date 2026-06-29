@@ -1,11 +1,11 @@
 {
-  "b9fccf48-21ba-4044-8be2-113e4f137a5d": {
-    "requestId": "b9fccf48-21ba-4044-8be2-113e4f137a5d",
-    "deviceId": "f18b84c72ce5fd2ba55869809079a34d37342cfeedcdbfd3a2ded4c8a97c3562",
-    "publicKey": "kl1bXTEtDEsRZVoSWComMGuW1wnjzrzZvRu2NCNHvkE",
-    "platform": "linux",
-    "clientId": "cli",
-    "clientMode": "cli",
+  "9fc802d0-e677-4421-bd68-d23abefc3001": {
+    "requestId": "9fc802d0-e677-4421-bd68-d23abefc3001",
+    "deviceId": "761f67072d387804a207e678776a7794481b242d10cbf971e2c888f6dedc0437",
+    "publicKey": "wkWakvcxyxrwa9yrCDerl5S-uNyIEWLDdVWCRO6kBHc",
+    "platform": "MacIntel",
+    "clientId": "openclaw-control-ui",
+    "clientMode": "webchat",
     "role": "operator",
     "roles": [
       "operator"
@@ -15,11 +15,10 @@
       "operator.read",
       "operator.write",
       "operator.approvals",
-      "operator.pairing",
-      "operator.talk.secrets"
+      "operator.pairing"
     ],
     "silent": false,
-    "isRepair": true,
-    "ts": 1780527004136
+    "isRepair": false,
+    "ts": 1782765610311
   }
 }

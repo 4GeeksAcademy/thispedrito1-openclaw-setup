@@ -1,7 +1,7 @@
 {
   "agent:main:main": {
     "sessionId": "103d47df-5ad4-4d86-b2e5-98080dd2102a",
-    "updatedAt": 1782750762327,
+    "updatedAt": 1782756163129,
     "sessionStartedAt": 1779373690616,
     "lastInteractionAt": 1782500647169,
     "systemSent": true,
@@ -391,8 +391,8 @@
     "pendingFinalDelivery": true,
     "pendingFinalDeliveryText": "I've checked the HEARTBEAT.md file and it's empty except for comments. According to the file, I should keep it empty to skip heartbeat API calls, or add tasks when I want to check something periodically. Since there are no tasks defined in the HEARTBEAT.md file and nothing specific needs attention right now:",
     "pendingFinalDeliveryCreatedAt": 1779375769827,
-    "pendingFinalDeliveryLastAttemptAt": 1782750762327,
-    "pendingFinalDeliveryAttemptCount": 1471,
+    "pendingFinalDeliveryLastAttemptAt": 1782756163037,
+    "pendingFinalDeliveryAttemptCount": 1474,
     "pendingFinalDeliveryLastError": null,
     "agentHarnessId": "pi",
     "compactionCheckpoints": [
@@ -854,13 +854,13 @@
   "agent:main:tui-60be53a2-efd0-40cb-926a-0d5dfca1e804": {
     "sessionId": "53c400cf-672f-4a5c-9399-672b9c0458c8",
     "sessionFile": "/root/.openclaw/agents/main/sessions/53c400cf-672f-4a5c-9399-672b9c0458c8.jsonl",
-    "updatedAt": 1782751859413,
+    "updatedAt": 1782769975027,
     "systemSent": false,
     "abortedLastRun": false,
     "model": "madrid-spain/openrouter/deepseek/deepseek-v4-flash",
     "modelProvider": "litellm",
     "contextTokens": 128000,
-    "compactionCount": 4,
+    "compactionCount": 18,
     "compactionCheckpoints": [
       {
         "checkpointId": "d8e2a75e-ad80-4d1a-8d3a-a3cc80a001ee",
@@ -974,11 +974,11 @@
       ],
       "version": 0
     },
-    "lastInteractionAt": 1782751859394,
+    "lastInteractionAt": 1782769910055,
     "agentHarnessId": "pi",
     "systemPromptReport": {
       "source": "run",
-      "generatedAt": 1782751806582,
+      "generatedAt": 1782769867219,
       "sessionId": "53c400cf-672f-4a5c-9399-672b9c0458c8",
       "sessionKey": "agent:main:tui-60be53a2-efd0-40cb-926a-0d5dfca1e804",
       "provider": "litellm",
@@ -998,8 +998,8 @@
         "sandboxed": false
       },
       "systemPrompt": {
-        "chars": 29644,
-        "projectContextChars": 14836,
+        "chars": 26496,
+        "projectContextChars": 11688,
         "nonProjectContextChars": 14808
       },
       "injectedWorkspaceFiles": [
@@ -1007,8 +1007,8 @@
           "name": "AGENTS.md",
           "path": "/root/.openclaw/workspace/AGENTS.md",
           "missing": false,
-          "rawChars": 5322,
-          "injectedChars": 5322,
+          "rawChars": 2174,
+          "injectedChars": 2174,
           "truncated": false
         },
         {
@@ -1272,7 +1272,7 @@
         ]
       },
       "currentTurn": {
-        "promptChars": 34,
+        "promptChars": 818,
         "runtimeContextChars": 0
       }
     }
